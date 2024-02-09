@@ -1,0 +1,1106 @@
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+html,body
+{
+    width: 100%;
+    /* overflow: hidden; */
+}
+ /* Navbar starts */
+
+nav .logo-icon {
+    /* border: 1px solid red; */
+    background-color: rgba(17, 17, 17, 0.978);
+    color: white;
+    height: 50px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-left: 54px;
+    padding-right: 54px;
+    position: fixed;
+    z-index: 4444;
+    /* position: absolute; */
+    /* top: 0px; */
+  }
+  nav .hamberger-icon i {
+    /* border: 1px solid orange; */
+    color: white;
+    font-size: 20px;
+    height: 42px;
+    width: 42px;
+    border-radius: 100%;
+    padding-left: 12px;
+    padding-top: 11px;
+  }
+  nav img {
+    /* border: 1px solid red; */
+    height: 24px;
+    width: 52px;
+  }
+  nav .nav-flex1 {
+    /* border: 1px solid blue; */
+    width: 240px;
+    margin-left: 70px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .nav-flex2 {
+    /* border: 1px solid blue; */
+    width: 360px;
+    margin-left: 480px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: space-between;
+  }
+  nav .nav-flex1 a,
+  nav .nav-flex2 a {
+    color: white;
+    text-decoration: none;
+  }
+  .nav-clr-green {
+    color: #32c86e;
+    cursor: pointer;
+  }
+  
+  /* Navbar ends */
+
+.container-parent
+{
+    /* border: 2px solid red; */
+    height: 768px;
+    width: 100%;
+    overflow: hidden;
+    /* border: 1px solid red; */
+
+}
+.container-parent-child1{
+    height: 768px;
+    width: 100%;
+    /* border: 1px solid red; */
+    overflow: hidden;
+}
+.container-parent-child1 img
+{
+height: 768px;
+width: 100%;
+position: relative;
+overflow: hidden;
+}
+.container-parent-child2 
+{
+    /* border: 2px solid blue; */
+    position: absolute;
+    bottom: -50px;
+    justify-content: center;
+    margin: 50px;
+    margin-left: 550px;
+    margin-top: 40px;
+   
+}
+.container-parent-child2 a
+{
+background-color: #CDE67B;
+color: #270A1D;
+padding: 15px;
+text-decoration: none;
+bottom: 30px;
+}
+.container-parent-child3 a
+{
+    text-decoration: none;
+    border: 2px solid #CDE67B ;
+    color:#CDE67B;
+    margin-left: 695px;
+    margin-bottom: 35px;
+    padding: 13px;
+    position: absolute;
+    bottom: -50px;
+}
+.container-parent1
+{
+    background-image: url(https://cdn.olaelectric.com/ev-discovery-platform/New-Homepage/s1_air_slider_bg_web01.webp);
+    /* border: 2px solid red; */
+    height: 832px;
+    /* width: 100%; */
+    position: relative;
+    overflow: hidden;
+}
+.container-parent1 img
+{
+    height: 400px;
+    width: 406px;
+    margin-top: 300px;
+    /* margin: 20px auto; */
+    margin-left: 30px;
+}
+.container-parent1-img1
+{
+    margin-left: 500px;
+    margin-bottom: 800px;
+    padding: 20px;
+    
+}
+.container-parent1-child1
+{
+    
+    z-index: +1;
+}
+
+.container-parent1-child2
+{
+    position: absolute;
+    /* border: 2px solid white; */
+    /* background: white; */
+    /* bottom: 10px; */
+    top: 0px;
+    color: white;
+    font-weight: bold;
+    /* font-style: italic; */
+    font-size: 40px;
+    margin-top: 30px;
+    padding: 30px;
+    z-index: +1;
+
+}
+/* nav starts */
+nav ul 
+{
+    display: flex;
+    /* position: fixed; */
+    z-index: +1;
+    list-style: none;
+    justify-content: space-between;
+    margin-left: 100px;
+    padding: 20px;
+    height: 20px;
+    width: 90%;
+    font-weight:bold;
+    font-size: 30px;
+}
+nav ul li a
+{
+   
+    text-decoration: none;
+}
+
+/* nav ends */
+.performance
+{
+    background-color: white;
+    color: black;
+    display: flex;
+    overflow: hidden;
+    margin-left: 50px;
+    margin-bottom: 30px;
+    padding: 30px;
+    /* justify-content: space-between; */
+}
+.performance-head
+{
+    font-weight: bold;
+    font-size: 30px;
+    margin-top: 100px;
+    color: #18334D;
+    margin-left: 100px;
+}
+
+    /* margin-right: 100px; */
+
+/* .properties img
+{
+    position: relative;
+    margin-right: 30px;
+    display: flex;
+} */
+/* .performance h2
+{
+    font-size: 30px;
+    margin-left: 60px;
+
+} */
+.performance img
+{
+    height:300px;
+    width:400px ;
+    overflow: hidden;
+    /* justify-content: space-between; */
+    margin-top: 90px;
+    /* margin-right: 70px; */
+    /* margin-right: 100%; */
+    /* left:0px; */
+    /* padding: 20px; */
+    margin-right: 30px;
+
+}
+.performance h3
+{
+    color: #18334D;
+    font-size: 20px;
+}
+.performance p
+{
+    color: #18334daf;
+    font-size: 15px;
+}
+.ola-background
+{
+    background-image: url("https://cdn.olaelectric.com/sites/evdp/common/tco_bg_web_image_140823.webp");
+    height: 606px;
+    width: 100%;
+    overflow: hidden;
+    /* padding: 300px; */
+    z-index: +1;
+    display: flex;
+}
+.ola-background-content
+{
+    color: white;
+    /* margin-right: 60px; */
+    margin-bottom: 100px;
+    margin-top: 40px;
+    margin-left: 30px;
+    padding: 20px;
+}
+.ola-background-content a
+{
+    text-decoration: none;
+    color: green;
+    font-size: 20px;
+}
+.ola-background-content p
+{
+    color: rgba(255, 255, 255, 0.744);
+    font-size: 20px;
+    /* margin-left: 30px; */
+    font-weight: 200;
+    /* padding: 30px; */
+}
+.ola-background-content h2
+{
+    font-size: 60px;
+ }
+ .ola-background-content1 img
+ {
+    height: 513px; ;
+    width: 738px;
+    overflow: hidden;
+    padding: 20px;
+ }
+ .ola-background-content1 p
+ {
+    color: rgba(255, 255, 255, 0.547);
+    padding: 20px;
+ }
+ .ola-financing-head
+
+{
+    color: #18334D;
+    font-size: 30px;
+    margin-left: 20px;
+}
+
+ .ola-financing
+ {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+ }
+
+ .ola-financing-img1 img
+ {
+    height: 446px;
+    width: 333px;
+    margin-left: 20px;
+ }
+ .ola-financing-img2
+ {
+    border: 2px solid rgba(145, 144, 144, 0.534);
+    height: 446px;
+    width: 333px;
+    border-radius: 2px;
+
+ }
+ .ola-financing-img2 img
+ {
+    justify-content: space-between;
+    margin-top: 20px;
+    border: 2px solid rgba(167, 162, 162, 0.518);
+    margin-left: 40px;
+    /* margin-right: 30px; */
+    /* display: flex; */
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+    align-items: center;
+    gap: 14px;
+
+ }
+ .ola-financing-a
+ {
+    height: 60px;
+    background-color: #18334D;
+    width: 100%;
+ }
+ .ola-financing-img2 a
+ {
+    text-decoration: none;
+  
+   /* background: #0f2235; */
+   color: #fff;
+   /* margin-top: 300px; */
+   margin-top: 50px;
+   margin-left: 90px;
+   font-weight: bold;
+   font-size: 18px;
+   justify-content: center;
+   /* height: 20px; */
+   /* width: 100%; */
+   /* overflow: hidden; */
+   /* padding: 30px; */
+  
+ }
+ .ola-financing-img2 h2
+ {
+    color: #18334dd8;
+ }
+ .ola-financing-img2 p
+ {
+    color: #18334dd8;
+ }
+
+.ola-financing-img3
+{
+    border: 2px solid rgba(122, 122, 122, 0.332);
+    height: 446px;
+    width: 333px;
+    /* border-radius: 1px; */
+}
+.ola-financing-img3 img
+{
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.ola-financing-img3
+{
+    color: #18334dba;
+}
+.ola-colors
+{
+    border: 2px solid rebeccapurple;
+    height: 729px;
+    display: flex;
+    width: 100%;
+    margin-top: 20px;
+    /* margin-left: 30px; */
+}
+.ola-colors img
+{
+    margin-left: 30px;
+}
+.ola-colors h2
+{
+    margin-left: 30px;
+    font-size: 40px;
+    color: #18334d;
+}
+.ola-colors p
+{
+    padding: 10px;
+    margin-left: 30px;
+    color: #18334dcc; 
+}
+.ola-colors h4
+{
+    font-size: 20px;
+    color: #18334d;
+    font-weight: bold;
+    margin-left: 35px;
+    font-style: italic;
+}
+.ola-colors-models img
+{
+    height: 422px;
+    width: 492px;
+    margin-left: 300px;
+}
+.ola-hypercharger
+{
+    background-image: url("https://research.tokenmetrics.com/wp-content/uploads/2023/06/Ola-Research-1140x570-06-2-scaled.jpg");
+    /* background-color: rgba(0, 128, 0, 0.325); */
+    height: 784px;
+    padding: 50px;
+    width: 100%;
+    overflow: hidden;
+    /* background-repeat:; */
+}
+.ola-charger
+{
+    display: flex;
+    justify-content: space-between;
+}
+.ola-hypercharger
+{
+   
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+.bangalore select
+{
+    border: none;
+
+    /* border-top: none; */
+    margin-left: 230px;
+    /* margin-bottom: 670px; */
+    background-color:#B7D070;;
+    height: 30px;
+    width: 100px;
+}
+.ola-hypercharger p 
+{
+    color: rgb(208, 208, 208);
+    font-size: 20px;
+    font-weight: bold;
+}
+.ola-hypercharger a
+{
+    text-decoration: none;
+    color: #B7D070; 
+    font-size: 20px;
+}
+.charger-types,.charger-types1,.charger-types2
+{
+    border: 2px solid rgba(214, 221, 214, 0.612);
+    height: 330px;
+    width:400px ;
+    background-color: rgba(0, 0, 0, 0.745);
+    
+}
+.ola-access
+{
+    height: 735px;
+    width: 100%;
+}
+.ola-access1
+{
+    /* border: 2px solid red; */
+    height: 133px;
+    width: 174px;
+    margin-left: 20px;
+}
+.ola-access1 img
+{
+    margin-left: 40px;
+}
+.ola-access2
+{
+    /* border: 2px solid red; */
+    height: 133px;
+    width: 322px;
+}
+.ola-access-head1 h2
+{
+    color: #0f2235d3;
+    margin-top: 120px;
+    font-size: 40px;
+    margin-left: 60px; 
+}
+.ola-access-head1 p
+{
+    margin-left: 60px;
+}
+/* .ola-access h2
+{
+color: #b3c9de;
+margin-top: 70px;
+font-size: 40px;
+margin-left: 30px;
+} */
+.ola-access p
+{
+    color: #0f2235d7;
+    font-size: 15px;
+    /* margin-top: 60px; */
+}
+.ola-access-child
+{
+    display: flex;
+    margin-top: 20px;
+}
+.ola-access-empty img
+{
+    /* margin-bottom: 80px; */
+    /* margin-left: 100px; */
+   height: 500px;
+   width: 800px;
+}
+
+/* ola service */
+.ola-service
+{
+    height: 818px;
+    width: 100%;
+    margin-left: 30px;
+    /* display: flex; */
+}
+.ola-service-types
+{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px;
+}
+.ola-service-span
+{
+    color: #0f2235ce;
+    font-size: 50px;
+    font-weight: bold;
+    margin-left: 40px;
+}
+.ola-service-span p
+{
+    margin-top: 30px;
+}
+
+.ola-service p
+{
+    color: #0f2235;
+    font-weight: bold;
+    margin-left: 10px;
+}
+
+.ola-service-types1 img,.ola-service-types2 img,.ola-service-types3 img
+{
+    height: 330px;
+    width: 402px;
+    margin-top: 30px;
+}
+.ola-service-types1 h2 p
+{
+color: #0f2235;
+
+}
+.ola-service-types a
+{
+    text-decoration: none;
+    color: rgb(0, 128, 0);
+}
+
+/* ola-help */
+.ola-help
+{
+display: flex;
+justify-content: space-between;
+overflow: hidden;
+}
+.ola-help p
+{
+color: #0f2235c4;
+font-weight: bold;
+
+}
+
+.ola-help-head
+{ 
+color: #0f2235;
+font-size: 40px ;
+margin-left: 20px;
+font-weight: bold;
+
+}
+.ola-help2 img,.ola-help3 img,.ola-help4 img
+{
+    height: 221px;
+    width: 272px;
+    margin-left: 30px;
+
+}
+
+.ola-help-content select,.ola-help-content1 select,.ola-help-content2 select
+{
+border: none;
+font-size: 20px;
+margin-left: 20px;
+}
+/* table-starts */
+.ola-table-info,.ola-table-info1,.ola-table-info2,.ola-table-info3,.ola-table-info4,.ola-table-info5
+{
+    display: flex;
+    overflow: hidden;
+    /* width: 100%; */
+    justify-content: space-between;
+    /* border: 2px solid red; */
+    height: 80px;
+     /* width: 90%; */
+    margin-top: 20px;
+    color: #0f2235;
+}
+.info-footer
+{
+    display: flex;
+    justify-content: space-between;
+}
+.info-footer1
+{
+    padding: 30px;
+    margin-right: 50px;
+    font-size: 20px;
+    color: #0f223554;
+}
+.info-footer2 a
+{
+    /* border: 2px solid red; */
+    height: 45px;
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+    text-decoration: none;
+    /* justify-content: center; */
+    background-color:black;
+}
+/* ola-community */
+/* our commuity start */
+
+.fullblue {
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    width: 100%;
+    height: 680px;
+    background: #121027;
+    padding: 30px;
+    /* z-index: -5; */
+  }
+  .ourcommunity {
+    /* border: 1px solid green; */
+    width: 34%;
+    margin-top: 4%;
+    margin-left: 6%;
+    color: white;
+  }
+  .ourcommunity h1 {
+    margin-bottom: 40px;
+    font-size: 44px;
+  }
+  .ourcommunity p {
+    color: rgba(255, 255, 255, 0.562);
+    margin-bottom: 40px;
+  }
+  .fullvideo {
+    /* border: 1px solid crimson; */
+    width: 26%;
+    height: 360px;
+  }
+  .video1 {
+    width: 130px;
+    height: 130px;
+    border-radius: 100%;
+    /* background: #16aa51; */
+    margin: auto;
+    margin-top: 9%;
+  }
+  .video1 img {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    position: relative;
+    z-index: 44;
+  }
+  .played {
+    background: #62798a;
+    width: 38px;
+    height: 38px;
+    border-radius: 100%;
+    position: relative;
+    z-index: 44;
+    left: 47px;
+    bottom: 87px;
+  }
+  .fa-play {
+    position: relative;
+    top: 9px;
+    left: 13px;
+    z-index: 44;
+    color: white;
+    font-size: 20px;
+  }
+  .firstframes {
+    border: 1px solid #d1d9ff33;
+    color: white;
+    height: 250px;
+    padding: 20px;
+    background: linear-gradient(
+      116.05deg,
+      rgba(13, 11, 12, 0.0416) 21.5%,
+      rgba(255, 255, 255, 0.0416) 45.33%,
+      rgba(27, 21, 25, 0.112) 92.98%
+    );
+    border-radius: 14px;
+    position: relative;
+    bottom: 50px;
+  }
+  .firstframes h1 {
+    font-size: 26px;
+    line-height: 40px;
+    margin-top: 56px;
+    margin-left: 23px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  .firstframes p {
+    /* margin-top: 20px; */
+    text-align: center;
+    color: #d1d9ff;
+  }
+  .firstsoan {
+    margin-left: 22px;
+    font-size: 26px;
+  }
+  
+  .threevideoflex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  /* our commuity :end */
+/* ola-charger */
+/* helpmeaccess start */
+.helpmeaccess {
+    /* border: 1px solid red; */
+    width: 17%;
+    margin-top: 3%;
+    /* margin-left: 7%; */
+    margin-bottom: 20px;
+  }
+  .helpmeaccess h1 {
+    font-size: 44px;
+    color: #071425;
+    margin-bottom: 20px;
+  }
+  .helpmeaccess p {
+    color: #62798a;
+    font-size: 17px;
+  }
+  .fullbasebue {
+    /* border: 1px solid blue; */
+    width: 17%;
+    height: 300px;
+  }
+  .blueola {
+    /* border: 1px solid green; */
+    width: 257px;
+    height: 250px;
+  }
+  .blueola img {
+    width: 100%;
+    height: 100%;
+    margin-bottom: 20px;
+  }
+  .blueola p {
+    font-size: 24px;
+    font-weight: 50;
+    color: #62798a;
+  }
+  .OLALOG {
+    font-weight: bold;
+    color: #071425;
+  }
+  .fa-sort-desc {
+    color: #071425;
+  }
+  .helpmeflex {
+    display: flex;
+    justify-content: space-evenly;
+  }
+  .lightboder1 {
+    width: 84%;
+    background-color: rgba(211, 211, 211, 0.068);
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-left: 110px;
+    align-items: center;
+    padding: 30px;
+  }
+  
+  .firstprice h3 {
+    font-size: 25px;
+    color: #6b6b6c;
+    font-weight: 70;
+  }
+  
+  .emistart h1 {
+    font-size: 26px;
+    color: #071425;
+    margin-bottom: 10px;
+  }
+  .normalcolor {
+    background-color: white;
+  }
+  
+  .movespace {
+    position: relative;
+    right: 70px;
+  }
+  .movespace1 {
+    position: relative;
+    right: 60px;
+  }
+  .movespace2 {
+    position: relative;
+    right: 30px;
+  }
+  .movespace3 {
+    position: relative;
+    right: 120px;
+  }
+  .movespace4 {
+    position: relative;
+    right: 80px;
+  }
+  .movespace5 {
+    position: relative;
+    right: 120px;
+  }
+  .movespace6 {
+    position: relative;
+    right: 110px;
+  }
+  .movespace7 {
+    position: relative;
+    right: 75px;
+  }
+  .movespace8 {
+    position: relative;
+    right: 100px;
+  }
+  .movespace9 {
+    position: relative;
+    right: 70px;
+  }
+  .flecbtn {
+    display: flex;
+  }
+  .viewbtm {
+    position: relative;
+    top: 50px;
+    left: 720px;
+    background: #181d22;
+    font-size: 16px;
+    line-height: 16px;
+    padding: 20px 0;
+    margin-left: 16px;
+    width: 211px;
+    color: white;
+  }
+  .pricementioned {
+    /* border: 1px solid red; */
+    margin-top: 40px;
+    margin-left: 9%;
+    width: 25%;
+  }
+  .pricementioned p {
+    font-size: 17px;
+    line-height: 26px;
+    color: #62798a7d;
+  }
+  /* helpmeaccess end */
+.ola-charger
+{
+    height: 722px;
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    background-color: rgba(110, 163, 12, 0.089);
+}
+.ola-charger1
+{
+    /* border: 2px solid red; */
+    margin-top: 80px;
+    height: 324px;
+    width: 500px;
+}
+.ola-charger1 h2
+{
+font-size: 50px;
+color: #0f2235d3;
+font-weight: bold;
+margin-left: 40px;
+}
+.ola-charger1 p
+{
+    font-size: 20px;  
+    color: #0f2235d3;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.ola-charger1 h3
+{
+    font-size: 20px;  
+    color: #0f2235d3;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.ola-charger1 a
+{
+    text-decoration: none;
+    font-size: 15px;  
+    color: #05903ddb;
+    margin-left: 40px;
+    font-weight: bold;
+}
+.ola-charger2 img
+{
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+    margin-left: 20px;
+}
+.ola-charger2 h3
+{
+color: #0f2235;
+font-size: 25px;
+margin-left: 20px;
+}
+.ola-charger2 p
+{
+    color: #0f2235;
+    font-size: 20px;
+    margin-left: 20px; 
+}
+.ola-charger3 img
+{
+    
+    height: 400px;
+    width: 300px;
+    margin-top: 30px;
+}
+.ola-charger3 h3
+{
+color: #0f2235;
+font-size: 25px;
+margin-left: 20px;
+}
+.ola-charger3 p
+{
+    color: #0f2235;
+    font-size: 20px;
+    margin-left: 20px; 
+}
+.ola-questions
+{
+    display: flex;
+}
+.ola-questions1
+{
+    /* border: 2px solid red; */
+    margin-top: 20px;
+    margin-left: 40px;
+    height: 375px;
+    width: 425px;
+}
+.ola-questions1 h2
+{
+    font-size: 50px;
+    color: #0f2235f9;
+    font-weight: bold;
+}
+.ola-questions1 p
+{
+    color: #0f2235c1;
+    font-weight: bold;
+}
+.ola-questions1 a
+{
+    text-decoration: none;
+    margin-left: 70px;
+    /* border: 2px solid red; */
+    height: 40px;
+    width: 80px;
+    background-color: #0f2235;
+    color: rgba(172, 255, 47, 0.993);
+    padding: 20px;
+}
+.ola-questions2
+{
+    margin-left: 90px;
+    margin-top: 70px;
+}
+.ola-questions2 a
+{
+    text-decoration: none;
+    font-weight: bold;
+    color: #0f2235;
+    font-size: 30px;
+    /* font-style: italic; */
+}
+.ola-questions2 p
+{
+ font-size: 15px;
+ color: #0f2235b3;
+}
+.ola-anchor a
+{
+text-decoration: none;
+}
+
+/* footer starts */
+
+footer {
+    /* border: 1px solid red; */
+    background-color: #0a1320;
+    color: #d6e1ea;
+    height: 210px;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+  }
+  footer img {
+    height: 23px;
+    width: 61px;
+    margin-top: 34px;
+    margin-left: 60px;
+  }
+  footer .footer-flex-1 {
+    /* border: 1px solid green; */
+    display: flex;
+    flex-direction: column;
+    margin-top: 34px;
+    margin-left: 100px;
+  }
+  footer .footer-flex-1 a {
+    text-decoration: none;
+    color: #d6e1ea;
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 20px;
+  }
+  footer .footer-icons {
+    /* border: 1px solid red; */
+    height: 40px;
+    position: absolute;
+    right: 40px;
+    top: 34px;
+  }
+  footer .footer-icons a {
+    text-decoration: none;
+    color: #d6e1ea;
+    font-size: 18px;
+    margin-right: 24px;
+  }
+  footer p {
+    border: 1px solid #98fcc0;
+    color: #98fcc0;
+    font-size: 11px;
+    font-style: italic;
+    padding: 2px 8px;
+    height: 20px;
+    background: linear-gradient(83.64deg, #11703e 6.31%, #0c3b32 98.86%);
+    position: relative;
+    top: 70px;
+    right: 8px;
+  }
+  
+  /* footer ends */
+  
